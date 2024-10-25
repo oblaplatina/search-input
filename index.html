@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search-bar">
+        <input id="searchInput" type="text" placeholder="Search products..." />
+    </div>
+    
+    <div class="filter-bar">
+        <select id="categoryFilter">
+            <option value="">All categories</option>
+        </select>
+    </div>
+
+    <div id="productList" class="product-list">
+    </div>
+
+    <div class="pagination">
+        <button id="prevBtn" disabled>Назад</button>
+        <span id="pageInfo">Page 1</span>
+        <button id="nextBtn">Вперед</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
